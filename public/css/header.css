@@ -1,0 +1,199 @@
+#bannerContact {
+    background-color: #000;
+    height: 30px;
+    padding: 4px;
+    color: aliceblue;
+}
+
+#contactFirstDiv {
+    width: 40%;
+    min-width: 526.5px;
+    font-size: 1rem;
+}
+
+#contactFirstDiv h4 {
+    font-size: 0.9rem;
+}
+
+#numTel2 {
+    display: none;
+}
+
+#contactSecondDiv {
+    width: 15%;
+    min-width: 218px;
+    font-size: 1rem;
+}
+
+#contactSecondDiv h4 {
+    font-size: 0.9rem;
+}
+
+#bannerContact a {
+    color: white;
+}
+
+@media only screen and (max-width : 760px){
+    #contactFirstDiv {
+        width: 80%;
+        min-width: 388px;
+        font-size: 1rem;
+    }
+    
+    #contactFirstDiv p, #contactSecondDiv p {
+        display: none;
+    }
+
+    #contactSecondDiv {
+        width: 15%;
+        min-width: 0px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width : 475px){
+    #contactFirstDiv {
+        width: 36%;
+        min-width: 0px;
+        font-size: 1rem;
+    }
+    
+    #contactFirstDiv p, #contactSecondDiv p {
+        display: none;
+    }
+
+    #contactSecondDiv {
+        width: 40%;
+        min-width: 0px;
+        font-size: 1rem;
+    }
+
+    #position, #mailAd, #numTel {
+        display: none;
+        visibility: hidden;
+    }
+
+    #numTel2 {
+        display: block;
+    }
+}
+
+#mainNav {
+    width: 950px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#logoTitle {
+    padding: 3px;
+    display: flex;
+    width: 330px;
+    text-decoration: none;
+    color: #111111;
+    background-color: inherit;
+}
+
+#logoImg {
+    float: left;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+#logoTitle div h1 {
+    width: 250px;
+    margin: 0;
+}
+
+#logoTitle div small {
+    font-size-adjust: 0.48;
+    margin: 0;
+}
+
+.navItems {
+    float: left;
+    margin: 2px;
+    font-size: 2rem;
+}
+
+.navItems svg {
+    position: relative;
+    width: 90%;
+    height: 20px;
+    top: 20px;
+}
+
+.navLink {
+    color: #000000;
+    padding: 6px;
+}
+
+#navLink1:hover {
+    color: red;
+}
+
+#navLink2:hover {
+    color: blue;
+}
+
+#navLink3:hover {
+    color: green;
+}
+
+.active {
+    font-weight: bold;
+}
+
+@media only screen and (max-width:975px) {
+    #mainNav {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:445px) {
+    #logoTitle {
+        width: 100px;
+    }
+
+    #logoImg {
+        display: none;
+    }
+
+    #logoTitle div {
+        width: auto;
+    }
+
+    #logoTitle div h1 {
+        font-size: 1.3rem;
+    }
+
+    #logoTitle div small {
+        font-size: 0.9rem;
+    }
+}
+
+footer {
+    height: 10.5vh;
+    width: 100%;
+    padding: 32px;
+    position: absolute;
+    margin-bottom: 0;
+    color: #111111;
+}
+
+#copyRight {
+    font-size-adjust: 0.52;
+    position: relative;
+    width: 320px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+#copyRight small {
+    font-size-adjust: 0.48;
+    font-style: normal;
+}

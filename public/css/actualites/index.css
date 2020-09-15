@@ -1,0 +1,22 @@
+#mainFrame {
+    padding: 32px;
+}
+
+#anouncementBar {
+    width: 40%;
+    min-width: 185.2px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#indexShowCard {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftHeaderLink {
+    position: relative;
+    float: right;
+}

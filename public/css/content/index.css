@@ -1,0 +1,25 @@
+#mainFrame {
+    padding: 32px;
+}
+
+#anouncementBar {
+    width: 40%;
+    min-width: 185.2px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#indexShowCard {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentShower {
+    background-color: #ffffffee;
+    border-radius: 16px;
+    border: 4px solid #000000;
+    padding: 16px;
+    margin: 32px;
+}
